@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 575px;
+    margin-top: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subContainer1Gender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gender {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer1bmiValues {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bmiVlaues {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indexLabel {
+    display: flex;
+}
+
+.hight-weight {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultViewer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+.footer-left {
+    width: 350px;
+}
